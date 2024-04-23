@@ -1,0 +1,17 @@
+conditional expressions
+    - to express choosing between two alternatives, scala has a conditional expression "if/else"
+
+boolean expressions
+    - true/false
+    - !
+    - ||
+    - &&
+    - <=, >=, <, >, ==, !=
+
+value definitions
+    - we have seen that function parameters can be passed by "value" or be passed by "name"
+    - the "def" form is "by-name" its right hand side is evaluated on each use
+    - the "val" form is "by-value"
+    - the right hand side of a "val" definition is "evaluated at the point of the definition itself"
+    - afterwards, the name refers to the value
+    - for instance, y above refers to 4, not square(2)
