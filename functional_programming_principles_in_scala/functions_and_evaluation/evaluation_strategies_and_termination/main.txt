@@ -1,0 +1,5 @@
+call-by-value is the default
+
+but if the type of function parameter starts with "=>" it uses call-by-name
+
+a definition evaluated only when it is used, we use the "def" keyword
