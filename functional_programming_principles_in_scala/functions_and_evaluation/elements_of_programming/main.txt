@@ -1,0 +1,11 @@
+call-by-value
+    - has the advantage that it evaluates every function argument only once
+
+call-by-name
+    - has the advantage that a function argument is not evaluated if the corresponding parameter is unused in the evaluation of the function body
+
+indicate which evaluation strategy is faster
+    - times(2, 3)     same
+    - times(3+4, 2)   cbv: 3+4 evaluated only once
+    - times(7, 2*4)   cbn: 2*4 omitted altogether
+    - times(3+4, 2*4) same
